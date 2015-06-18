@@ -1,15 +1,17 @@
 # Recruitment task for testers
 
-Your task is following: Create Python script that will test following GitHub functionality:
+Create Python script that will test following GitHub functionality:
 * listing commit comments
 * creating commit comments
 
-through Github API calls (https://developer.github.com/v3/)
+through GitHub API calls
 
-Test scenario that should be implemented
+Test scenario that should be implemented:
 
 1. Create some comment for commit 6de932c4d03743d6b96596595562076b8b7e9dd4 of this repository
 
 2. Check if the comment was created
+
+Use basic authentication for the requests. Finding and understanding API documentation is part of the task.
 
 Your solution (.py) file should be submitted to recruitment()kezzler_com
